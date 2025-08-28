@@ -3,16 +3,58 @@
     color: seagreen;
 }
 h1 {
+    font-size: 3em;
     text-align: center;
 }
 p {
-    font-size: 18px;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 20px;
 }
-div {
-    border: 2px solid seagreen;
-    padding: 10px;
-    margin: 10px;
-}
-h2 {
+a {
     color: darkblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+button {
+    background-color: seagreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkgreen;
+}
+nav {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: darkblue;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+footer p {
+    margin: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
